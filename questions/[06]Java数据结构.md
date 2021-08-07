@@ -1,4 +1,18 @@
-## Java数据结构面试题
+- [\# HashMap的底层数据结构？](#-hashmap的底层数据结构)
+- [\# 什么对象能做为 HashMap 的 key?](#-什么对象能做为-hashmap-的-key)
+- [\# HashMap 大小为什么是2的指数倍，对于扩容和非扩容情况都有哪些好处？](#-hashmap-大小为什么是2的指数倍对于扩容和非扩容情况都有哪些好处)
+- [\# HashMap怎么扩容？怎么高效率的实现数据迁移？](#-hashmap怎么扩容怎么高效率的实现数据迁移)
+- [\# HashMap, ConcurrentHashMap, HashTable比较](#-hashmap-concurrenthashmap-hashtable比较)
+- [\# ConcurrentHashMap 原理？](#-concurrenthashmap-原理)
+- [\# ConcurrentHashMap 在Java7和Java8中的区别？](#-concurrenthashmap-在java7和java8中的区别)
+- [\# 为什么Java8的ConcurrentHashMap并发效率更好？](#-为什么java8的concurrenthashmap并发效率更好)
+- [\# 什么情况下用HashMap，什么情况用ConcurrentHashMap？](#-什么情况下用hashmap什么情况用concurrenthashmap)
+- [\# 关于 LinkedHashMap，以下代码输出的时候，key 为 2 的在第几位？](#-关于-linkedhashmap以下代码输出的时候key-为-2-的在第几位)
+- [\# ArrayList的初始大小是多大？](#-arraylist的初始大小是多大)
+- [\# Java中的队列](#-java中的队列)
+- [\# 什么是阻塞队列？](#-什么是阻塞队列)
+- [\# 阻塞队列不可用时的处理方法？](#-阻塞队列不可用时的处理方法)
+- [\# AtomicInteger怎么实现原子修改的？](#-atomicinteger怎么实现原子修改的)
 
 ## \# HashMap的底层数据结构？
 JDK1.7中HashMap的底层是由数组+单向链表这两种数据结构组合而成的，而在JDK1.8中HashMap是由数组+单向链表+红黑树三种数据结构组合而成的。
